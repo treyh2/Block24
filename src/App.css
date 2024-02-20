@@ -1,22 +1,12 @@
-/*#root {
+#root {
+  display: flex;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  border: 2px solid white;
-  font-family: sans-serif;
-}*/
-.App{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   height: 100vh;
-  width: auto;
-  max-width: 1280px;
-  margin-left: 15vh;
-  text-align: center;
-  
 }
+
 .dog-name:hover{
   text-decoration: underline aliceblue;
   cursor: pointer;
@@ -28,7 +18,12 @@
 }
 
 .puppyApp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color:rgb(120, 39, 90);
+  padding-bottom: 10%;
+  padding-top: 10%;
   border: 2px solid white;
   font-family: sans-serif;
 }
